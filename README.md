@@ -1,75 +1,65 @@
-# React + TypeScript + Vite
+# Mohammed Taha Halim — Portfolio
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## Featured Projects
 
-Currently, two official plugins are available:
+### 1. Hospitality Booking Platform
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+A booking platform built from scratch to study how large-scale hospitality booking workflows work end to end, from search to reservation.
 
-## React Compiler
+- Localization built in for Japanese and international guests
+- Responsive, accessible UI with light/dark themes and accessible colour contrast
+- Reached **95+ Lighthouse** scores across performance, accessibility, best practices and SEO
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+**Stack:** React · TypeScript · Express · MySQL · Tailwind CSS · Material UI · Motion · react-i18next
+**Code:** [github.com/IT1023/yukino](https://github.com/IT1023/yukino)
 
-## Expanding the ESLint configuration
+> **Note:** This is an independent educational project inspired by the SkyeNiseko booking experience. It is not affiliated with or endorsed by the original business, and its content, copy and branding are my own.
 
-If you are developing a production application, we recommend updating the configuration to enable type-aware lint rules:
+---
 
-```js
-export default defineConfig([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
+### 2. HR Management Dashboard
 
-      // Remove tseslint.configs.recommended and replace with this
-      tseslint.configs.recommendedTypeChecked,
-      // Alternatively, use this for stricter rules
-      tseslint.configs.strictTypeChecked,
-      // Optionally, add this for stylistic rules
-      tseslint.configs.stylisticTypeChecked,
+A full-stack HR platform with role-based access control and recruitment workflows.
 
-      // Other configs...
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
+- Role-based access control so each user role sees and does only what it should
+- Recruitment workflow management
+- Multi-language support (i18n)
+- Redis-backed caching to keep the app fast under repeated queries
+- Deployed with **95+ Lighthouse** scores across all categories
 
-```
+**Stack:** React · TypeScript · Redux Toolkit · Express · MySQL · Redis
+**Code:** [github.com/IT1023/hr_management](https://github.com/IT1023/hr_management)
 
-You can also install [eslint-plugin-react-x](https://npmx.dev/package/eslint-plugin-react-x) and [eslint-plugin-react-dom](https://npmx.dev/package/eslint-plugin-react-dom) for React-specific lint rules:
+---
 
-```js
-// eslint.config.js
-import reactX from 'eslint-plugin-react-x'
-import reactDom from 'eslint-plugin-react-dom'
+### 3. Wordle Clone
 
-export default defineConfig([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
-      // Enable lint rules for React
-      reactX.configs['recommended-typescript'],
-      // Enable lint rules for React DOM
-      reactDom.configs.recommended,
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
+A Wordle clone where the server, not the client, decides the outcome of every game.
 
-```
+- Server-authoritative game logic in Express and MySQL, so results cannot be manipulated from the browser
+- JWT-backed session state with Redis for secure player sessions
+- Full English/Japanese i18n
+- Light and dark themes
+
+**Stack:** React · TypeScript · Express · MySQL · Redis · JWT
+**Code:** [github.com/IT1023/wordle](https://github.com/IT1023/wordle)
+
+---
+
+## Tech Stack
+
+| Area                   | Technologies                                                                                                                        |
+| ---------------------- | ----------------------------------------------------------------------------------------------------------------------------------- |
+| **Frontend**           | React, TypeScript, JavaScript, HTML5, CSS3, Redux Toolkit, TanStack Query, Tailwind CSS, Material UI, i18next, Vite, Motion, Swiper |
+| **Backend**            | Node.js, Express, RESTful API design, serverless functions, FastAPI integration                                                     |
+| **Data**               | MySQL, MongoDB, Redis                                                                                                               |
+| **Testing & Delivery** | Vitest, Postman, Git, ESLint, code review, agile / ICE prioritization, AWS, Figma                                                   |
+| **AI**                 | Integrated a privately hosted LLM into a production healthcare application; AI request pipeline optimization                        |
+
+---
+
+## Languages
+
+- English — C2
+- French — C1
+- Japanese — JLPT N4 (studying toward N3)
