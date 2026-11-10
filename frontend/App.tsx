@@ -1,31 +1,12 @@
-import Theme from "./features/themes/Theme";
-
-const test = [
-  "background",
-  "foreground",
-  "primary",
-  "secondary",
-  "info",
-  "warning",
-  "error",
-  "success",
-];
+import { Suspense } from "react";
+import Router from "./routes/Router";
+import Loader from "./shared/ui/Loader";
 
 function App() {
   return (
-    <div className="w-screen h-screen bg-background p-2 font-mono font-semibold flex flex-col gap-2">
-      <Theme />
-      {test.map((t) => {
-        return (
-          <div
-            key={t}
-            className={`w-fit min-w-30 border capitalize p-2 bg-${t}`}
-          >
-            {t}
-          </div>
-        );
-      })}
-    </div>
+    <Suspense fallback={<Loader />}>
+      <Router />
+    </Suspense>
   );
 }
 

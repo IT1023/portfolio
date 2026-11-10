@@ -7,13 +7,13 @@ export default function Theme() {
 
   return (
     <button
-      className="w-fit text-md cursor-pointer p-1.5 rounded-sm bg-foreground aspect-square flex justify-center items-center"
+      className="w-fit text-md cursor-pointer bg-foreground px-1.25 py-0.75 rounded-sm text-white/70 border border-divider aspect-square flex justify-center items-center"
       onClick={toggleTheme}
     >
       {currentTheme === "dark" ? (
-        <LightModeOutlinedIcon fontSize="inherit" />
+        <LightModeOutlinedIcon fontSize="inherit" color="inherit" />
       ) : (
-        <DarkModeOutlinedIcon fontSize="inherit" />
+        <DarkModeOutlinedIcon fontSize="inherit" color="inherit" />
       )}
     </button>
   );
