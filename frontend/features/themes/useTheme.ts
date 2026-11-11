@@ -19,10 +19,10 @@ const getInitialTheme = (THEME_KEY: string): TTheme => {
     if (["light", "dark"].includes(local)) return local as TTheme;
     const mediaMatchDark = window.matchMedia("(prefers-color-schemes: dark)");
     if (mediaMatchDark.matches) return "dark";
-    return "light";
+    return "dark";
   } catch (err) {
     console.log(err);
-    return "light";
+    return "dark";
   }
 };
 
