@@ -15,12 +15,12 @@ export default function Language() {
     <div className="w-fit flex items-center gap-0.5">
       <span
         aria-hidden
-        className="h-full flex justify-center text-xl tracking-tight items-center text-white/40"
+        className="h-full flex justify-center text-xl tracking-tight items-center opacity-40"
       >
         <LanguageOutlinedIcon fontSize="inherit" color="inherit" />
       </span>
       <select
-        className="border border-divider font-[Blinker] bg-foreground rounded-md px-1.75 py-0.75 text-white/65 cursor-pointer"
+        className="border-t-2 border-divider font-[Blinker] bg-foreground rounded-md px-1.75 py-0.75 topacity-65 cursor-pointer"
         name="languages"
         id="languages"
         value={i18n.language}

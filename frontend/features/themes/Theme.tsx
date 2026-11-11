@@ -7,7 +7,7 @@ export default function Theme() {
 
   return (
     <button
-      className="w-fit text-md cursor-pointer bg-foreground px-1.25 py-0.75 rounded-sm text-white/70 border border-divider aspect-square flex justify-center items-center"
+      className="w-fit text-md cursor-pointer bg-foreground px-1.5 py-1 rounded-sm opacity-70 border-t-2 border-divider aspect-square flex justify-center items-center"
       onClick={toggleTheme}
     >
       {currentTheme === "dark" ? (

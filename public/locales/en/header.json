@@ -1,0 +1,8 @@
+{
+  "portfolio": "it1023_",
+  "nav": [
+    { "to": "/", "label": "home" },
+    { "to": "/about", "label": "about me" },
+    { "to": "/contact", "label": "contact" }
+  ]
+}

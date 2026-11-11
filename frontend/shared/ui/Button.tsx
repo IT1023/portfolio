@@ -1,26 +1,28 @@
-import { useTranslation } from "react-i18next";
 import { Link } from "react-router-dom";
 
 interface ButtonProps {
   to?: string;
-  ns?: string;
-  path?: string;
+  text?: string;
+  isLink?: boolean;
 }
 
 export default function Button({
-  ns = "common",
-  path = "missingButtonKey",
+  text = "missingButtonKey",
   to = "/",
+  isLink = false,
 }: ButtonProps) {
-  const { t } = useTranslation(ns);
-  const label = t(path);
-  return (
+  return isLink ? (
     <Link
-      className="w-fit font-[Blinker] lowercase bg-foreground border border-divider text-[15px] px-4.25 py-0.75 rounded-[50px] hover:scale-101 transition-all duration-300 ease-in-out"
+      className="w-fit font-[Blinker] lowercase bg-foreground border-t-2 border-divider opacity-60 text-[15px] px-4.25 py-0.75 rounded-[50px] hover:scale-101 transition-all duration-300 ease-in-out"
       to={to}
     >
-      {label}
+      {text}
       <strong>.</strong>
     </Link>
+  ) : (
+    <button className="w-fit font-[Blinker] lowercase bg-foreground border-t-2 border-divider opacity-50 text-[15px] px-4.25 py-0.75 rounded-[50px] hover:scale-101 transition-all duration-300 ease-in-out">
+      {text}
+      <strong>.</strong>
+    </button>
   );
 }
