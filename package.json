@@ -36,6 +36,7 @@
     "react-i18next": "^18.0.0",
     "react-redux": "^9.3.1",
     "react-router-dom": "^7.18.5",
+    "react-spinners": "^0.17.1",
     "swiper": "^14.4.0",
     "tailwindcss": "^4.3.5",
     "ts-node": "^10.9.2",

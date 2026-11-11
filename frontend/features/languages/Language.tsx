@@ -2,8 +2,15 @@ import { useEffect } from "react";
 import { useTranslation } from "react-i18next";
 import LanguageOutlinedIcon from "@mui/icons-material/LanguageOutlined";
 import { LANGS } from "../../shared/lib/constants";
+import { generateUniqueString } from "../../shared/lib/helpers";
 
-export default function Language() {
+interface LanguageProps {
+  key?: string;
+}
+
+export default function Language({
+  key = generateUniqueString(),
+}: LanguageProps) {
   const { t, i18n } = useTranslation("common");
   const lang = i18n.language;
 
@@ -22,7 +29,7 @@ export default function Language() {
       <select
         className="border-t-2 border-divider font-[Blinker] bg-foreground rounded-md px-1.75 py-0.75 topacity-65 cursor-pointer"
         name="languages"
-        id="languages"
+        id={`languages-${key}`}
         value={i18n.language}
         onChange={(e) => i18n.changeLanguage(e.target.value)}
       >

@@ -1,3 +1,5 @@
+import { SyncLoader } from "react-spinners";
+
 export default function Loader() {
-  return <div>Loader</div>;
+  return <SyncLoader color="#525252" speedMultiplier={0.5} />;
 }

@@ -4,7 +4,13 @@ import Loader from "./shared/ui/Loader";
 
 function App() {
   return (
-    <Suspense fallback={<Loader />}>
+    <Suspense
+      fallback={
+        <div className="bg-background w-screen h-screen flex justify-center items-center">
+          <Loader />
+        </div>
+      }
+    >
       <Router />
     </Suspense>
   );
