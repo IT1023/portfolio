@@ -4,5 +4,6 @@
     { "to": "/", "label": "home" },
     { "to": "/about", "label": "about me" },
     { "to": "/contact", "label": "contact" }
-  ]
+  ],
+  "openNavMenu": "Open navigation menu"
 }
