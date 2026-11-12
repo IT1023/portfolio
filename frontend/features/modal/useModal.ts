@@ -60,6 +60,7 @@ export default function useModal(): UseModalReturns {
     if (!FOCUSABLE_ELEMENTS.length)
       return () => {
         document.body.style.overflow = "auto";
+        lastActiveElement.current?.focus();
       };
     lastActiveElement.current = document.activeElement as HTMLElement;
     const first = FOCUSABLE_ELEMENTS[0] as HTMLElement;

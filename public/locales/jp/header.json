@@ -4,5 +4,6 @@
     { "to": "/", "label": "ホーム" },
     { "to": "/about", "label": "私について" },
     { "to": "/contact", "label": "お問い合わせ" }
-  ]
+  ],
+  "openNavMenu": "ナビゲーションメニューを開く"
 }
