@@ -21,12 +21,12 @@ export default function Animate({
   return (
     <>
       {!isCrossed && (
-        <div aria-hidden ref={sentinelRef} className="w-0 h-0"></div>
+        <div aria-hidden ref={sentinelRef} className="w-0 min-h-50"></div>
       )}
       <AnimatePresence>
         {isCrossed && (
           <motion.div
-            className="flex-1"
+            className="w-full h-fit"
             initial={initial}
             animate={animate}
             exit={exit}

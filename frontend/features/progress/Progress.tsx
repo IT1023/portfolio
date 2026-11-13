@@ -6,7 +6,7 @@ export default function Progress() {
   return (
     <div
       style={{ width: position + "%" }}
-      className={`absolute top-0 left-0 bg-primary h-0.5 transition-all duration-100 ease-in-out`}
+      className={`absolute top-0 left-0 bg-primary h-0.75 shadow-2xl transition-all duration-100 ease-in-out`}
     ></div>
   );
 }

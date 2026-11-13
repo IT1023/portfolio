@@ -1,6 +1,6 @@
 import { lazy } from "react";
 
-const Homepage = lazy(() => import("../pages/Homepage"));
+const Homepage = lazy(() => import("../pages/homepage/Homepage"));
 const NotFound = lazy(() => import("../pages/NotFound"));
 
 interface IRoute {
