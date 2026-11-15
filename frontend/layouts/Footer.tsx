@@ -12,10 +12,10 @@ export default function Footer() {
             <p className="text-base text-current">{t("workWithMe")}</p>
           </span>
           <a
-            className="w-fit bg-primary md:py-3 py-2 md:px-5 px-4 truncate font-[Blinker] text-white/65 rounded-[50px] text-lg"
+            className="w-fit bg-primary capitalize py-1.5 text-md px-4 truncate font-[Blinker] text-white/65 rounded-[50px] text-lg"
             href="mailto:mohamedtahahalim@gmail.com"
           >
-            mohamedtahahalim@gmail.com
+            {t("emailMe")}
           </a>
         </div>
         <span className="w-full h-8 bg-foreground flex justify-center items-center">
