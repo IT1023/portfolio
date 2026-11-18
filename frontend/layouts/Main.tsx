@@ -1,8 +1,10 @@
 import { Outlet } from "react-router-dom";
 import Footer from "./Footer";
 import Header from "./Header";
+import useScroll from "../shared/lib/useScroll";
 
 export default function Main() {
+  useScroll();
   return (
     <div className="max-w-screen min-h-screen bg-background overflow-x-hidden flex flex-col">
       <Header />
