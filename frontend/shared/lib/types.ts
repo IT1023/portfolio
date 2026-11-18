@@ -5,3 +5,9 @@ export interface LanguageOption {
   label: string;
   ariaLabel: string;
 }
+
+export interface HeadProps {
+  subtitle: string;
+  title: string;
+  img: string;
+}

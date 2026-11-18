@@ -1,17 +1,27 @@
 import { useState } from "react";
+import { useTranslation } from "react-i18next";
 
 interface TitleProps {
+  ns: string;
+  path: string;
+}
+
+interface TitleContent {
   pic: string;
   catchphrase: string;
   name: string;
 }
 
-export default function Title({ pic, catchphrase, name }: TitleProps) {
+export default function Title({ ns, path }: TitleProps) {
   const [isHover, setIsHover] = useState<boolean>(false);
+  const { t } = useTranslation(ns);
+  const { name, catchphrase, pic } = t(path, {
+    returnObjects: true,
+  }) as TitleContent;
 
   return (
     <div
-      className={`w-full max-w-85 aspect-3.5/3 bg-foreground border-t-2 border-divider rounded-3xl overflow-hidden px-8 py-6 flex flex-col justify-center gap-4`}
+      className={`w-full flex-1 bg-foreground border-t-2 border-divider rounded-3xl overflow-hidden px-8 py-6 flex flex-col justify-center gap-4`}
       onMouseOver={() => setIsHover(true)}
       onMouseLeave={() => setIsHover(false)}
     >

@@ -1,8 +1,80 @@
 {
+  "hero": {
+    "titleCard": {
+      "pic": "/img/me/5.webp",
+      "catchphrase": "ReactとViteで作成",
+      "name": "Taha Halim"
+    },
+    "flatCard": {
+      "first": {
+        "flatKey": "肩書き",
+        "flatValue": "フルスタックエンジニア",
+        "icon": "/img/star.svg"
+      },
+      "second": {
+        "flatKey": "拠点",
+        "flatValue": "モロッコ・カサブランカ",
+        "icon": "/img/globe.svg"
+      }
+    },
+    "miniCard": [
+      {
+        "icon": "linkedin",
+        "link": "https://www.linkedin.com/in/mohammedtahahalim/"
+      },
+      {
+        "icon": "github",
+        "link": "https://github.com/it1023"
+      },
+      {
+        "icon": "cv",
+        "link": "https://www.linkedin.com/in/test/"
+      }
+    ],
+    "contact": {
+      "img": "/img/oroboros.svg",
+      "title": "一緒にお仕事しませんか？",
+      "button": {
+        "link": "mailto:mohamedtahahalim@gmail.com",
+        "label": "メールを送る！"
+      }
+    }
+  },
+  "about": {
+    "head": {
+      "img": "/img/about.svg",
+      "title": "自己紹介",
+      "subtitle": "仕事の裏にある思考を知ってください。"
+    },
+    "title": {
+      "pic": "/img/me.webp",
+      "text": "毎日、昨日より成長する"
+    },
+    "description": "Tahaです。React、TypeScript、Node、Expressを使い、小売、ヘルスケアAI、コンシューマー向けモバイルアプリの分野で7年以上ものづくりに携わってきたフルスタックエンジニアです。これまでに、1万点以上の商品カタログをReactで再構築してフィルタリングを体感的に一瞬（100ミリ秒未満）で動くようにしたほか、テストカバレッジを40%向上させ、AI診断パイプラインの処理時間を約5秒から1.3秒に短縮しました。コードレビューを大切にしており、さまざまなチームと円滑に協働できます。英語を使うチームであれば、一人で自走して進めることも得意です。"
+  },
+  "portfolio": {
+    "head": {
+      "img": "/img/portfolio.svg",
+      "title": "ポートフォリオ",
+      "subtitle": "プロダクトデザインの実績紹介"
+    },
+    "content": {
+      "first": {
+        "title": "Wordle",
+        "shortDescription": "人気ゲーム「Wordle」の再現",
+        "img": "/img/portfolio/wordle"
+      },
+      "second": {
+        "title": "人事管理",
+        "shortDescription": "人事管理システム",
+        "img": "/img/portfolio/hr"
+      }
+    }
+  },
   "journey": [
     {
       "icon": "work",
-      "title": "キャリア",
+      "title": "職歴",
       "content": [
         {
           "icon": "work",
@@ -30,7 +102,7 @@
       "content": [
         {
           "icon": "education",
-          "title": "修士2年(M2)、人工知能",
+          "title": "M2（修士2年）、人工知能",
           "content": "CY CERGY",
           "dates": ["2020-09", "2021-09"]
         },
@@ -49,25 +121,25 @@
         {
           "icon": "articles",
           "title": "Javascript-Heap",
-          "content": "Proxyを使ってJavaScriptの配列をヒープ化する。",
+          "content": "プロキシを使ってJavaScriptの配列をヒープ化する。",
           "link": "https://zenn.dev/taha/articles/cf7b3407c9d855"
         },
         {
           "icon": "articles",
           "title": "Typescript-Cache",
-          "content": "Proxyを使ったTTL付きインメモリキャッシュ。",
+          "content": "プロキシを使ったTTL付きインメモリキャッシュ。",
           "link": "https://zenn.dev/taha/articles/0f970bc7f1bef0"
         },
         {
           "icon": "articles",
           "title": "React-Modal",
-          "content": "Reactでのヘッドレスモーダル。",
+          "content": "Reactのヘッドレスモーダル。",
           "link": "https://zenn.dev/taha/articles/ca332770718b0a"
         },
         {
           "icon": "articles",
           "title": "Nodejs-Auth",
-          "content": "デュアル認証システムによるアクセス。",
+          "content": "デュアル認証システムによるアクセス制御。",
           "link": "https://zenn.dev/taha/articles/a82150288fe3d2"
         }
       ]

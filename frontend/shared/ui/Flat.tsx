@@ -1,21 +1,31 @@
 import { useState } from "react";
+import { useTranslation } from "react-i18next";
 
 interface FlatProps {
+  ns: string;
+  path: string;
+}
+
+interface FlatContent {
   flatKey: string;
   flatValue: string;
   icon: string;
 }
 
-export default function Flat({ flatKey, flatValue, icon }: FlatProps) {
+export default function Flat({ ns, path }: FlatProps) {
   const [isHover, setIsHover] = useState<boolean>(false);
+  const { t } = useTranslation(ns);
+  const { flatKey, flatValue, icon } = t(path, {
+    returnObjects: true,
+  }) as FlatContent;
 
   return (
     <div
-      className="w-85 h-28 bg-foreground border-t-2 border-divider rounded-3xl overflow-hidden flex justify-between gap-1"
+      className="w-full h-28 bg-foreground border-t-2 border-divider rounded-3xl overflow-hidden flex justify-between gap-1"
       onMouseOver={() => setIsHover(true)}
       onMouseLeave={() => setIsHover(false)}
     >
-      <div className="flex-1 overflow-hidden h-full flex flex-col justify-center gap-1 px-4">
+      <div className="flex-1 overflow-hidden h-full flex flex-col justify-center px-4">
         <h1 className="text-current/50 text-xl font-semibold tracking-wide truncate">
           {flatKey}
         </h1>

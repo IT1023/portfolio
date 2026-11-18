@@ -17,7 +17,7 @@ const homepageSegments: React.ReactElement[] = [
 
 export default function Homepage() {
   return (
-    <div className="flex-1 flex flex-col gap-2 p-2">
+    <div className="flex-1 flex flex-col gap-10 p-2">
       {homepageSegments.map((segment, idx) => {
         return <Animate key={idx}>{segment}</Animate>;
       })}

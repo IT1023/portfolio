@@ -22,7 +22,7 @@ export default function Square({ ns, path }: SquareProps) {
   const { img, title, button } = content;
 
   return (
-    <div className="w-full max-w-75 rounded-xl px-2 py-4 flex flex-col gap-5 justify-evenly items-center overflow-hidden aspect-square bg-foreground border-t-2 border-divider">
+    <div className="w-full max-h-85 flex-1 rounded-xl px-2 py-4 flex flex-col gap-5 justify-evenly items-center overflow-hidden aspect-square bg-foreground border-t-2 border-divider">
       <div
         className="w-full max-w-15 aspect-square overflow-hidden text-current/60 text-6xl"
         aria-hidden

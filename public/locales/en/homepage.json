@@ -1,4 +1,76 @@
 {
+  "hero": {
+    "titleCard": {
+      "pic": "/img/me/5.webp",
+      "catchphrase": "Created with React, Vite",
+      "name": "Taha Halim"
+    },
+    "flatCard": {
+      "first": {
+        "flatKey": "Title",
+        "flatValue": "Fullstack Developer",
+        "icon": "/img/star.svg"
+      },
+      "second": {
+        "flatKey": "Based In",
+        "flatValue": "Casablanca, Morocco",
+        "icon": "/img/globe.svg"
+      }
+    },
+    "miniCard": [
+      {
+        "icon": "linkedin",
+        "link": "https://www.linkedin.com/in/mohammedtahahalim/"
+      },
+      {
+        "icon": "github",
+        "link": "https://github.com/it1023"
+      },
+      {
+        "icon": "cv",
+        "link": "https://www.linkedin.com/in/test/"
+      }
+    ],
+    "contact": {
+      "img": "/img/oroboros.svg",
+      "title": "Want to work together?",
+      "button": {
+        "link": "mailto:mohamedtahahalim@gmail.com",
+        "label": "Email Me!"
+      }
+    }
+  },
+  "about": {
+    "head": {
+      "img": "/img/about.svg",
+      "title": "About me section",
+      "subtitle": "Get to know the mind at work."
+    },
+    "title": {
+      "pic": "/img/me.webp",
+      "text": "Better every single day"
+    },
+    "description": "Taha Desu, a full-stack engineer with 7+ years of building stuff with React, TypeScript, Node and Express, across retail, healthcare AI and consumer mobile apps. Along the way, I rebuilt a 10,000+ product catalogue in React so filtering feels instant (under 100ms), bumped test coverage by 40%, and took an AI diagnostic pipeline from ~5s down to 1.3s. I'm big on code reviews, I work well with all kinds of teams, and I'm happy running solo in English-speaking teams too."
+  },
+  "portfolio": {
+    "head": {
+      "img": "/img/portfolio.svg",
+      "title": "Portfolio Section",
+      "subtitle": "Product Design Showcase"
+    },
+    "content": {
+      "first": {
+        "title": "Wordle",
+        "shortDescription": "A recreation of the popular Wordle game",
+        "img": "/img/portfolio/wordle"
+      },
+      "second": {
+        "title": "HR Management",
+        "shortDescription": "Human Resource Management System",
+        "img": "/img/portfolio/hr"
+      }
+    }
+  },
   "journey": [
     {
       "icon": "work",

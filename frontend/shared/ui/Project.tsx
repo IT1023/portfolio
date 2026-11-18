@@ -1,6 +1,7 @@
 import { useState } from "react";
 import { useTranslation } from "react-i18next";
 import { Link } from "react-router-dom";
+import { useGetTheme } from "../../features/themes/ThemeContext";
 
 interface ProjectContent {
   title: string;
@@ -15,20 +16,18 @@ interface ProjectProps {
 
 export default function Project({ ns, path }: ProjectProps) {
   const [isHover, setIsHover] = useState<boolean>(false);
-  const { t } = useTranslation(ns);
+  const { t, i18n } = useTranslation(ns);
+  const { currentTheme } = useGetTheme();
+  const lang = i18n.language;
   const content = t(path, {
     returnObjects: true,
   }) as ProjectContent;
-  const {
-    title = "Hometime",
-    shortDescription = "Short to long term home rentals",
-    img,
-  } = content;
+  const { title, shortDescription, img } = content;
 
   return (
     <Link to={"/projects"}>
       <div
-        onMouseOver={() => setIsHover(true)}
+        onMouseEnter={() => setIsHover(true)}
         onMouseLeave={() => setIsHover(false)}
         className="w-full max-w-135 bg-foreground/50 hover:bg-foreground rounded-xl border-t-2 border-divider aspect-4/3.5 p-4 overflow-hidden flex flex-col gap-2"
       >
@@ -51,10 +50,14 @@ export default function Project({ ns, path }: ProjectProps) {
           </div>
         </div>
         <div
-          className={`flex-1 border rounded-lg overflow-hidden ${isHover ? "rotate-1" : "rotate-0"} transition-all duration-300 ease-in-out`}
+          className={`flex-1 max-w-100 rounded-lg overflow-hidden ${isHover ? "rotate-1" : ""} transition-all duration-300 ease-in-out`}
           aria-hidden
         >
-          <img src={img} alt={title} />
+          <img
+            className="w-full h-full z-1 object-cover"
+            src={`${img}_${currentTheme}_${lang}.webp`}
+            alt={title}
+          />
         </div>
       </div>
     </Link>
