@@ -2,12 +2,12 @@
   "hero": {
     "titleCard": {
       "pic": "/img/me/5.webp",
-      "catchphrase": "ReactとViteで作成",
+      "catchphrase": "React と Vite で制作",
       "name": "Taha Halim"
     },
     "flatCard": {
       "first": {
-        "flatKey": "肩書き",
+        "flatKey": "職種",
         "flatValue": "フルスタックエンジニア",
         "icon": "/img/star.svg"
       },
@@ -36,32 +36,32 @@
       "title": "一緒にお仕事しませんか？",
       "button": {
         "link": "mailto:mohamedtahahalim@gmail.com",
-        "label": "メールを送る！"
+        "label": "メールを送る"
       }
     }
   },
   "about": {
     "head": {
       "img": "/img/about.svg",
-      "title": "自己紹介",
-      "subtitle": "仕事の裏にある思考を知ってください。"
+      "title": "自己紹介セクション",
+      "subtitle": "作り手の頭の中をのぞいてみてください。"
     },
     "title": {
       "pic": "/img/me.webp",
-      "text": "毎日、昨日より成長する"
+      "text": "毎日、昨日より良く。"
     },
-    "description": "Tahaです。React、TypeScript、Node、Expressを使い、小売、ヘルスケアAI、コンシューマー向けモバイルアプリの分野で7年以上ものづくりに携わってきたフルスタックエンジニアです。これまでに、1万点以上の商品カタログをReactで再構築してフィルタリングを体感的に一瞬（100ミリ秒未満）で動くようにしたほか、テストカバレッジを40%向上させ、AI診断パイプラインの処理時間を約5秒から1.3秒に短縮しました。コードレビューを大切にしており、さまざまなチームと円滑に協働できます。英語を使うチームであれば、一人で自走して進めることも得意です。"
+    "description": "Tahaです。React、TypeScript、Node、Express を使って、小売、ヘルスケアAI、コンシューマー向けモバイルアプリの分野で7年以上ものづくりをしてきたフルスタックエンジニアです。これまでに、1万点以上の商品カタログをReactで作り直してフィルタリングが一瞬で終わる（100ミリ秒未満）ようにしたり、テストカバレッジを40%向上させたり、AI診断パイプラインの応答時間を約5秒から1.3秒に短縮したりしました。コードレビューを大切にしていて、さまざまなチームとうまく連携できますし、英語環境のチームで自走することも得意です。"
   },
   "portfolio": {
     "head": {
       "img": "/img/portfolio.svg",
-      "title": "ポートフォリオ",
-      "subtitle": "プロダクトデザインの実績紹介"
+      "title": "ポートフォリオセクション",
+      "subtitle": "プロダクトデザインショーケース"
     },
     "content": {
       "first": {
         "title": "Wordle",
-        "shortDescription": "人気ゲーム「Wordle」の再現",
+        "shortDescription": "人気ゲーム Wordle の再現版",
         "img": "/img/portfolio/wordle"
       },
       "second": {
@@ -71,78 +71,159 @@
       }
     }
   },
-  "journey": [
-    {
-      "icon": "work",
-      "title": "職歴",
-      "content": [
-        {
-          "icon": "work",
-          "title": "フルスタックエンジニア",
-          "content": "Marjane",
-          "dates": ["2025-04", "現在"]
-        },
-        {
-          "icon": "work",
-          "title": "ソフトウェアエンジニア",
-          "content": "CY CERGY",
-          "dates": ["2021-09", "2024-09"]
-        },
-        {
-          "icon": "work",
-          "title": "R&Dエンジニア",
-          "content": "OPPO",
-          "dates": ["2017-11", "2020-08"]
-        }
-      ]
+  "tools": {
+    "head": {
+      "img": "/img/tools.svg",
+      "title": "ツールセクション",
+      "subtitle": "ツールと技術"
     },
-    {
-      "icon": "education",
-      "title": "学歴",
-      "content": [
+    "content": {
+      "title": "普段使っているツールとソフトウェア",
+      "elements": [
         {
-          "icon": "education",
-          "title": "M2（修士2年）、人工知能",
-          "content": "CY CERGY",
-          "dates": ["2020-09", "2021-09"]
+          "icon": "/img/tech/react.webp",
+          "tech": "React"
         },
         {
-          "icon": "education",
-          "title": "エンジニア課程、コンピュータサイエンス",
-          "content": "ENSEM",
-          "dates": ["2014-09", "2017-07"]
+          "icon": "/img/tech/aws.webp",
+          "tech": "aws"
+        },
+        {
+          "icon": "/img/tech/figma.webp",
+          "tech": "figma"
+        },
+        {
+          "icon": "/img/tech/github.svg",
+          "tech": "github"
+        },
+        {
+          "icon": "/img/tech/mongodb.svg",
+          "tech": "mongodb"
+        },
+        {
+          "icon": "/img/tech/mysql.svg",
+          "tech": "mysql"
+        },
+        {
+          "icon": "/img/tech/node.webp",
+          "tech": "node"
+        },
+        {
+          "icon": "/img/tech/slack.webp",
+          "tech": "slack"
+        },
+        {
+          "icon": "/img/tech/vue.webp",
+          "tech": "vue"
         }
-      ]
-    },
-    {
-      "icon": "articles",
-      "title": "記事",
-      "content": [
-        {
-          "icon": "articles",
-          "title": "Javascript-Heap",
-          "content": "プロキシを使ってJavaScriptの配列をヒープ化する。",
-          "link": "https://zenn.dev/taha/articles/cf7b3407c9d855"
-        },
-        {
-          "icon": "articles",
-          "title": "Typescript-Cache",
-          "content": "プロキシを使ったTTL付きインメモリキャッシュ。",
-          "link": "https://zenn.dev/taha/articles/0f970bc7f1bef0"
-        },
-        {
-          "icon": "articles",
-          "title": "React-Modal",
-          "content": "Reactのヘッドレスモーダル。",
-          "link": "https://zenn.dev/taha/articles/ca332770718b0a"
-        },
-        {
-          "icon": "articles",
-          "title": "Nodejs-Auth",
-          "content": "デュアル認証システムによるアクセス制御。",
-          "link": "https://zenn.dev/taha/articles/a82150288fe3d2"
-        }
-      ]
+      ],
+      "footer": "私の仕事を支えるツールたち。技術と創造性が出会い、アイデアが形になります。"
     }
-  ]
+  },
+  "background": {
+    "head": {
+      "img": "/img/background.svg",
+      "title": "経歴セクション",
+      "subtitle": "学歴・職歴"
+    },
+    "journey": [
+      {
+        "icon": "work",
+        "title": "職歴",
+        "content": [
+          {
+            "icon": "work",
+            "title": "フルスタックエンジニア",
+            "content": "Marjane",
+            "dates": ["2025-04", "現在"]
+          },
+          {
+            "icon": "work",
+            "title": "ソフトウェアエンジニア",
+            "content": "CY CERGY",
+            "dates": ["2021-09", "2024-09"]
+          },
+          {
+            "icon": "work",
+            "title": "R&Dエンジニア",
+            "content": "OPPO",
+            "dates": ["2017-11", "2020-08"]
+          }
+        ]
+      },
+      {
+        "icon": "education",
+        "title": "学歴",
+        "content": [
+          {
+            "icon": "education",
+            "title": "M2（修士課程2年）、人工知能",
+            "content": "CY CERGY",
+            "dates": ["2020-09", "2021-09"]
+          },
+          {
+            "icon": "education",
+            "title": "エンジニア学位、コンピュータサイエンス",
+            "content": "ENSEM",
+            "dates": ["2014-09", "2017-07"]
+          }
+        ]
+      },
+      {
+        "icon": "articles",
+        "title": "記事",
+        "content": [
+          {
+            "icon": "articles",
+            "title": "Javascript-Heap",
+            "content": "Proxyを使ってJavaScriptの配列をヒープにする。",
+            "link": "https://zenn.dev/taha/articles/cf7b3407c9d855"
+          },
+          {
+            "icon": "articles",
+            "title": "Typescript-Cache",
+            "content": "Proxyを使ったTTL付きインメモリキャッシュ。",
+            "link": "https://zenn.dev/taha/articles/0f970bc7f1bef0"
+          },
+          {
+            "icon": "articles",
+            "title": "React-Modal",
+            "content": "Reactで作るヘッドレスモーダル。",
+            "link": "https://zenn.dev/taha/articles/ca332770718b0a"
+          },
+          {
+            "icon": "articles",
+            "title": "Nodejs-Auth",
+            "content": "デュアル認証システムによるアクセス制御。",
+            "link": "https://zenn.dev/taha/articles/a82150288fe3d2"
+          }
+        ]
+      }
+    ]
+  },
+  "faq": {
+    "head": {
+      "img": "/img/faq.svg",
+      "title": "よくある質問セクション",
+      "subtitle": "よくあるご質問"
+    },
+    "questions": [
+      {
+        "title": "日本で働くことは可能ですか？",
+        "message": "はい、日本への移住を予定しており、1か月以内に勤務を開始できます。ビザのスポンサーが必要ですので、海外のエンジニアのビザサポートに前向きな企業を探しています。"
+      },
+      {
+        "title": "主な技術スタックは何ですか？",
+        "message": "フルスタックエンジニアとして、React、TypeScript、Node.js/Express を中心に開発しています。フロントエンドでは Redux Toolkit、TanStack Query、Tailwind CSS、Vite を使用し、バックエンドでは MySQL、MongoDB、Redis を使った REST API やサーバーレス関数を構築しています。テストには Vitest を使い、本番アプリケーションへの AI サービス統合の経験もあります。"
+      },
+      {
+        "title": "コミュニケーションに使える言語は何ですか？",
+        "message": "英語（C2）とフランス語（C1）で問題なく仕事ができ、7年以上、英語環境のエンジニアリングチームで働いてきました。日本語は現在 JLPT N4 で、N3 を目指して勉強中です。ローカライズを実践的に学ぶため、プロジェクトには日本語/英語の i18n も実装しています。"
+      },
+      {
+        "title": "これまでで最も誇りに思う成果は何ですか？",
+        "message": "Marjane では、1万点以上の SKU を100ミリ秒未満でフィルタリングできるカタログの React リファクタリングを主導し、自動テストカバレッジを40%向上させました。CY Cergy Paris University では、AI 診断パイプラインの応答時間を約5秒から1.3秒に短縮しました。それ以前の OPPO では、プライバシー保護機能「Auto Pixelate」を開発し、数百万台のデバイスに搭載されました。個人プロジェクトとして、人事管理ダッシュボードや宿泊予約プラットフォームも作っています。詳しくはポートフォリオセクションをご覧ください。"
+      }
+    ]
+  }
 }

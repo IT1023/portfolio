@@ -1,10 +1,6 @@
 import { AnimatePresence, motion } from "motion/react";
 import { useState } from "react";
-
-interface TechProps {
-  icon: string;
-  tech: string;
-}
+import type { TechProps } from "../../pages/homepage/Tools";
 
 export default function Tech({ icon, tech }: TechProps) {
   const [isHover, setIsHover] = useState<boolean>(false);

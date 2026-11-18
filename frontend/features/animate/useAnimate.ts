@@ -22,7 +22,7 @@ export default function useAnimate(): UseAnimateReturns {
         });
       },
       {
-        rootMargin: "25px",
+        rootMargin: "2px",
         threshold: 0.1,
       },
     );

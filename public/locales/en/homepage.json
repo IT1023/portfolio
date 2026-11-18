@@ -71,78 +71,159 @@
       }
     }
   },
-  "journey": [
-    {
-      "icon": "work",
-      "title": "Career",
-      "content": [
-        {
-          "icon": "work",
-          "title": "Fullstack Developer",
-          "content": "Marjane",
-          "dates": ["2025-04", "Present"]
-        },
-        {
-          "icon": "work",
-          "title": "Software Engineer",
-          "content": "CY CERGY",
-          "dates": ["2021-09", "2024-09"]
-        },
-        {
-          "icon": "work",
-          "title": "R&D Enginner",
-          "content": "OPPO",
-          "dates": ["2017-11", "2020-08"]
-        }
-      ]
+  "tools": {
+    "head": {
+      "img": "/img/tools.svg",
+      "title": "Tools section",
+      "subtitle": "Tools & Tech"
     },
-    {
-      "icon": "education",
-      "title": "Education",
-      "content": [
+    "content": {
+      "title": "The tools and software I work with",
+      "elements": [
         {
-          "icon": "education",
-          "title": "M2, Artificial Intelligence",
-          "content": "CY CERGY",
-          "dates": ["2020-09", "2021-09"]
+          "icon": "/img/tech/react.webp",
+          "tech": "React"
         },
         {
-          "icon": "education",
-          "title": "Engineer, Computer Science",
-          "content": "ENSEM",
-          "dates": ["2014-09", "2017-07"]
+          "icon": "/img/tech/aws.webp",
+          "tech": "aws"
+        },
+        {
+          "icon": "/img/tech/figma.webp",
+          "tech": "figma"
+        },
+        {
+          "icon": "/img/tech/github.svg",
+          "tech": "github"
+        },
+        {
+          "icon": "/img/tech/mongodb.svg",
+          "tech": "mongodb"
+        },
+        {
+          "icon": "/img/tech/mysql.svg",
+          "tech": "mysql"
+        },
+        {
+          "icon": "/img/tech/node.webp",
+          "tech": "node"
+        },
+        {
+          "icon": "/img/tech/slack.webp",
+          "tech": "slack"
+        },
+        {
+          "icon": "/img/tech/vue.webp",
+          "tech": "vue"
         }
-      ]
-    },
-    {
-      "icon": "articles",
-      "title": "Articles",
-      "content": [
-        {
-          "icon": "articles",
-          "title": "Javascript-Heap",
-          "content": "javaScript arrays into a heap using proxies.",
-          "link": "https://zenn.dev/taha/articles/cf7b3407c9d855"
-        },
-        {
-          "icon": "articles",
-          "title": "Typescript-Cache",
-          "content": "In-Memory cache with ttl using proxies.",
-          "link": "https://zenn.dev/taha/articles/0f970bc7f1bef0"
-        },
-        {
-          "icon": "articles",
-          "title": "React-Modal",
-          "content": "Headless Modal in React.",
-          "link": "https://zenn.dev/taha/articles/ca332770718b0a"
-        },
-        {
-          "icon": "articles",
-          "title": "Nodejs-Auth",
-          "content": "Dual authentication system access.",
-          "link": "https://zenn.dev/taha/articles/a82150288fe3d2"
-        }
-      ]
+      ],
+      "footer": "The tools behind my work, where technology and creativity come together to bring ideas to life."
     }
-  ]
+  },
+  "background": {
+    "head": {
+      "img": "/img/background.svg",
+      "title": "Background section",
+      "subtitle": "Education & Career"
+    },
+    "journey": [
+      {
+        "icon": "work",
+        "title": "Career",
+        "content": [
+          {
+            "icon": "work",
+            "title": "Fullstack Developer",
+            "content": "Marjane",
+            "dates": ["2025-04", "Present"]
+          },
+          {
+            "icon": "work",
+            "title": "Software Engineer",
+            "content": "CY CERGY",
+            "dates": ["2021-09", "2024-09"]
+          },
+          {
+            "icon": "work",
+            "title": "R&D Enginner",
+            "content": "OPPO",
+            "dates": ["2017-11", "2020-08"]
+          }
+        ]
+      },
+      {
+        "icon": "education",
+        "title": "Education",
+        "content": [
+          {
+            "icon": "education",
+            "title": "M2, Artificial Intelligence",
+            "content": "CY CERGY",
+            "dates": ["2020-09", "2021-09"]
+          },
+          {
+            "icon": "education",
+            "title": "Engineer, Computer Science",
+            "content": "ENSEM",
+            "dates": ["2014-09", "2017-07"]
+          }
+        ]
+      },
+      {
+        "icon": "articles",
+        "title": "Articles",
+        "content": [
+          {
+            "icon": "articles",
+            "title": "Javascript-Heap",
+            "content": "javaScript arrays into a heap using proxies.",
+            "link": "https://zenn.dev/taha/articles/cf7b3407c9d855"
+          },
+          {
+            "icon": "articles",
+            "title": "Typescript-Cache",
+            "content": "In-Memory cache with ttl using proxies.",
+            "link": "https://zenn.dev/taha/articles/0f970bc7f1bef0"
+          },
+          {
+            "icon": "articles",
+            "title": "React-Modal",
+            "content": "Headless Modal in React.",
+            "link": "https://zenn.dev/taha/articles/ca332770718b0a"
+          },
+          {
+            "icon": "articles",
+            "title": "Nodejs-Auth",
+            "content": "Dual authentication system access.",
+            "link": "https://zenn.dev/taha/articles/a82150288fe3d2"
+          }
+        ]
+      }
+    ]
+  },
+  "faq": {
+    "head": {
+      "img": "/img/faq.svg",
+      "title": "F.A.Q. Section",
+      "subtitle": "Frequently Asked Questions"
+    },
+    "questions": [
+      {
+        "title": "Are you available to work in Japan?",
+        "message": "Yes, I'm relocating to Japan and can start within one month. I do require visa sponsorship, so I'm looking for companies that are open to sponsoring international engineers."
+      },
+      {
+        "title": "What is your main tech stack?",
+        "message": "I'm a full-stack engineer focused on React, TypeScript and Node.js/Express. On the frontend I work with Redux Toolkit, TanStack Query, Tailwind CSS and Vite. On the backend I build REST APIs and serverless functions backed by MySQL, MongoDB and Redis. I also write tests with Vitest and have experience integrating AI services into production applications."
+      },
+      {
+        "title": "Which languages do you work in?",
+        "message": "I work comfortably in English (C2) and French (C1), and I've spent 7+ years in English-language engineering teams. I'm currently at JLPT N4 in Japanese and studying toward N3. I've also built Japanese/English i18n into my projects to get hands-on with localization."
+      },
+      {
+        "title": "What are you most proud of building?",
+        "message": "At Marjane, I led the React refactor of a catalogue that filters 10,000+ SKUs in under 100ms and raised automated test coverage by 40%. At CY Cergy Paris University, I cut an AI diagnostic pipeline's response time from about 5s to 1.3s. Earlier, at OPPO, I built the Auto Pixelate privacy feature that shipped to millions of devices. You can see my personal projects, including an HR dashboard and a hospitality booking platform, in the Projects section."
+      }
+    ]
+  }
 }
