@@ -3,6 +3,7 @@
   "nav": [
     { "to": "/", "label": "home" },
     { "to": "/about", "label": "about me" },
+    { "to": "/project", "label": "projects" },
     { "to": "/contact", "label": "contact" }
   ],
   "openNavMenu": "Open navigation menu"

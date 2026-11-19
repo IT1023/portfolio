@@ -1,0 +1,136 @@
+{
+  "main": {
+    "head": {
+      "img": "/img/about.svg",
+      "title": "A bit about me",
+      "subtitle": "Meet the mind behind the work."
+    },
+    "title": {
+      "pic": "/img/me/5.webp",
+      "text": "Getting a little better every day"
+    },
+    "description": "Hi, I'm Taha Desu, a full-stack engineer with 7+ years of experience shipping products with React, TypeScript, Node, and Express across retail, healthcare AI, and consumer mobile apps. A few highlights: I rebuilt a 10,000+ product catalogue in React so filtering feels instant (under 100ms), increased test coverage by 40%, and brought an AI diagnostic pipeline down from ~5s to 1.3s. I'm a big fan of code reviews, I enjoy working with all kinds of teams, and I'm equally comfortable going solo or collaborating with English-speaking teams."
+  },
+  "background": {
+    "head": {
+      "img": "/img/background.svg",
+      "title": "Background section",
+      "subtitle": "Education & Career"
+    },
+    "journey": [
+      {
+        "icon": "work",
+        "title": "Career",
+        "content": [
+          {
+            "icon": "work",
+            "title": "Fullstack Developer",
+            "content": "Marjane",
+            "dates": ["2025-04", "Present"]
+          },
+          {
+            "icon": "work",
+            "title": "Software Engineer",
+            "content": "CY CERGY",
+            "dates": ["2021-09", "2024-09"]
+          },
+          {
+            "icon": "work",
+            "title": "R&D Enginner",
+            "content": "OPPO",
+            "dates": ["2017-11", "2020-08"]
+          }
+        ]
+      },
+      {
+        "icon": "education",
+        "title": "Education",
+        "content": [
+          {
+            "icon": "education",
+            "title": "M2, Artificial Intelligence",
+            "content": "CY CERGY",
+            "dates": ["2020-09", "2021-09"]
+          },
+          {
+            "icon": "education",
+            "title": "Engineer, Computer Science",
+            "content": "ENSEM",
+            "dates": ["2014-09", "2017-07"]
+          }
+        ]
+      },
+      {
+        "icon": "articles",
+        "title": "Articles",
+        "content": [
+          {
+            "icon": "articles",
+            "title": "Javascript-Heap",
+            "content": "javaScript arrays into a heap using proxies.",
+            "link": "https://zenn.dev/taha/articles/cf7b3407c9d855"
+          },
+          {
+            "icon": "articles",
+            "title": "Typescript-Cache",
+            "content": "In-Memory cache with ttl using proxies.",
+            "link": "https://zenn.dev/taha/articles/0f970bc7f1bef0"
+          },
+          {
+            "icon": "articles",
+            "title": "React-Modal",
+            "content": "Headless Modal in React.",
+            "link": "https://zenn.dev/taha/articles/ca332770718b0a"
+          },
+          {
+            "icon": "articles",
+            "title": "Nodejs-Auth",
+            "content": "Dual authentication system access.",
+            "link": "https://zenn.dev/taha/articles/a82150288fe3d2"
+          }
+        ]
+      }
+    ]
+  },
+  "journey": {
+    "head": {
+      "img": "/img/faq.svg",
+      "subtitle": "Me throughout the years",
+      "title": "My Life Journey"
+    },
+    "content": [
+      {
+        "pic": "/img/life/1.webp",
+        "comment": "My first birthday, and my first encounter with a cake that had my name on it. The shock on my face says it all: I had no idea what was happening. Honestly, it's still my reaction to a good surprise."
+      },
+      {
+        "pic": "/img/life/2.webp",
+        "comment": "Getting ready for prom night, or the Moroccan equivalent of it. Everything had to be perfect, from the outfit to the last detail. It was one of those nights you spend hours preparing for and remember for years."
+      },
+      {
+        "pic": "/img/life/3.webp",
+        "comment": "At 18, I shaved my beard for the first time and kept only the mustache. I wasn't ready for the result, and the look on my face proves it. A bold experiment."
+      },
+      {
+        "pic": "/img/life/4.webp",
+        "comment": "Once the shock wore off, I decided to embrace it. No beard, no distractions (is that what they say?), just a big, proud mustache front and center. I was fully committed to the look, and look at it now I'll admit I respect the confidence I had."
+      },
+      {
+        "pic": "/img/life/5.webp",
+        "comment": "A couple of years later, I added a goatee to the mustache as a sign of maturity (what i thought at the time!). Looking back, it wasn't my best decision. Still, every look teaches you something, and this one taught me when to stop."
+      },
+      {
+        "pic": "/img/life/6.webp",
+        "comment": "My first professional photoshoot, taken for my passport right after I got my offer for the M2 at Cergy. A big milestone and the start of a new chapter in a new country. Serious face, but a lot of excitement behind it."
+      },
+      {
+        "pic": "/img/life/7.webp",
+        "comment": "Another professional shot, this time after earning my M2 in Artificial Intelligence at Cergy. I needed it to renew my visa, so it came with a bit of paperwork stress. It also marked an achievement I'm really proud of."
+      },
+      {
+        "pic": "/img/life/8.webp",
+        "comment": "Me today. This photo was taken last year to update my profile. Same person, a more polished look, and a lot more experience than the kid with the birthday cake."
+      }
+    ]
+  }
+}

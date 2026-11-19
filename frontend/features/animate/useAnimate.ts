@@ -22,8 +22,7 @@ export default function useAnimate(): UseAnimateReturns {
         });
       },
       {
-        rootMargin: "2px",
-        threshold: 0.1,
+        threshold: 0.5,
       },
     );
     intersection.observe(element);

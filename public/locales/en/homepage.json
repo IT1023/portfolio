@@ -2,7 +2,7 @@
   "hero": {
     "titleCard": {
       "pic": "/img/me/5.webp",
-      "catchphrase": "Created with React, Vite",
+      "catchphrase": "Created with React & Vite.",
       "name": "Taha Halim"
     },
     "flatCard": {
@@ -119,87 +119,6 @@
       ],
       "footer": "The tools behind my work, where technology and creativity come together to bring ideas to life."
     }
-  },
-  "background": {
-    "head": {
-      "img": "/img/background.svg",
-      "title": "Background section",
-      "subtitle": "Education & Career"
-    },
-    "journey": [
-      {
-        "icon": "work",
-        "title": "Career",
-        "content": [
-          {
-            "icon": "work",
-            "title": "Fullstack Developer",
-            "content": "Marjane",
-            "dates": ["2025-04", "Present"]
-          },
-          {
-            "icon": "work",
-            "title": "Software Engineer",
-            "content": "CY CERGY",
-            "dates": ["2021-09", "2024-09"]
-          },
-          {
-            "icon": "work",
-            "title": "R&D Enginner",
-            "content": "OPPO",
-            "dates": ["2017-11", "2020-08"]
-          }
-        ]
-      },
-      {
-        "icon": "education",
-        "title": "Education",
-        "content": [
-          {
-            "icon": "education",
-            "title": "M2, Artificial Intelligence",
-            "content": "CY CERGY",
-            "dates": ["2020-09", "2021-09"]
-          },
-          {
-            "icon": "education",
-            "title": "Engineer, Computer Science",
-            "content": "ENSEM",
-            "dates": ["2014-09", "2017-07"]
-          }
-        ]
-      },
-      {
-        "icon": "articles",
-        "title": "Articles",
-        "content": [
-          {
-            "icon": "articles",
-            "title": "Javascript-Heap",
-            "content": "javaScript arrays into a heap using proxies.",
-            "link": "https://zenn.dev/taha/articles/cf7b3407c9d855"
-          },
-          {
-            "icon": "articles",
-            "title": "Typescript-Cache",
-            "content": "In-Memory cache with ttl using proxies.",
-            "link": "https://zenn.dev/taha/articles/0f970bc7f1bef0"
-          },
-          {
-            "icon": "articles",
-            "title": "React-Modal",
-            "content": "Headless Modal in React.",
-            "link": "https://zenn.dev/taha/articles/ca332770718b0a"
-          },
-          {
-            "icon": "articles",
-            "title": "Nodejs-Auth",
-            "content": "Dual authentication system access.",
-            "link": "https://zenn.dev/taha/articles/a82150288fe3d2"
-          }
-        ]
-      }
-    ]
   },
   "faq": {
     "head": {
