@@ -23,3 +23,18 @@ export const generateUniqueString = () => {
     () => chars[getRandomNumber(0, chars.length)],
   ).join("");
 };
+
+const pick = <T>(items: readonly T[]): T =>
+  items[Math.floor(Math.random() * items.length)];
+
+export const randomAnimation = () => {
+  const axis = pick(["x", "y"] as const);
+  const offset = axis === "y" ? "50px" : pick(["50px", "-50px"] as const);
+
+  return {
+    initial: { [axis]: offset },
+    animate: { [axis]: "0px" },
+    exit: { [axis]: offset },
+    transition: { duration: 0.6, ease: "easeInOut" as const },
+  };
+};

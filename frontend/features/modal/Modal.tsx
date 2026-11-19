@@ -40,7 +40,7 @@ export default function Modal({
           {isOpen && (
             <motion.div
               key="modal-backdrop"
-              className={`${blurBackground ? "fixed top-0 right-0 w-screen h-screen bg-transparent backdrop-blur-[2px]" : "w-fit h-fit"}`}
+              className={`${blurBackground ? "fixed z-9999 top-0 right-0 w-screen h-screen bg-transparent backdrop-blur-[2px]" : "w-fit h-fit"}`}
               initial={initial}
               animate={animate}
               exit={exit}

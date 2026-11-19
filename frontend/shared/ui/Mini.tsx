@@ -40,7 +40,7 @@ export default function Mini({ ns, path }: MiniProps) {
               key={c.link}
               target="_blank"
               href={link ?? "https://github.com/it1023"}
-              className="flex-1 min-w-25 cursor-pointer text-4xl min-h-25 text-current/50 rounded-2xl flex justify-center items-center bg-foreground hover:bg-background transition-all duration-300 ease-in-out border-t-2 border-divider"
+              className="flex-1 min-w-25 cursor-pointer text-4xl min-h-25 text-current/50 rounded-3xl flex justify-center items-center bg-foreground hover:bg-background transition-all duration-300 ease-in-out border-t-2 border-divider"
             >
               <Icon fontSize="inherit" color="inherit" />
             </a>

@@ -1,0 +1,136 @@
+{
+  "main": {
+    "head": {
+      "img": "/img/about.svg",
+      "title": "私について少し",
+      "subtitle": "作品の裏側にいる人物をご紹介します。"
+    },
+    "title": {
+      "pic": "/img/me/5.webp",
+      "text": "毎日、少しずつ成長する"
+    },
+    "description": "はじめまして、Taha Desuです。React、TypeScript、Node、Expressを使い、小売、ヘルスケアAI、コンシューマー向けモバイルアプリの分野で7年以上プロダクト開発に携わってきたフルスタックエンジニアです。主な実績として、1万点以上の商品カタログをReactで再構築してフィルタリングを体感的に即時（100ミリ秒未満）にしたこと、テストカバレッジを40%向上させたこと、AI診断パイプラインの処理時間を約5秒から1.3秒に短縮したことが挙げられます。コードレビューが大好きで、さまざまなチームと働くことを楽しんでいます。一人での作業も、英語を話すチームとの協業も同じように得意です。"
+  },
+  "background": {
+    "head": {
+      "img": "/img/background.svg",
+      "title": "経歴セクション",
+      "subtitle": "学歴と職歴"
+    },
+    "journey": [
+      {
+        "icon": "work",
+        "title": "職歴",
+        "content": [
+          {
+            "icon": "work",
+            "title": "フルスタックエンジニア",
+            "content": "Marjane",
+            "dates": ["2025-04", "現在"]
+          },
+          {
+            "icon": "work",
+            "title": "ソフトウェアエンジニア",
+            "content": "CY CERGY",
+            "dates": ["2021-09", "2024-09"]
+          },
+          {
+            "icon": "work",
+            "title": "R&Dエンジニア",
+            "content": "OPPO",
+            "dates": ["2017-11", "2020-08"]
+          }
+        ]
+      },
+      {
+        "icon": "education",
+        "title": "学歴",
+        "content": [
+          {
+            "icon": "education",
+            "title": "修士2年（M2）人工知能",
+            "content": "CY CERGY",
+            "dates": ["2020-09", "2021-09"]
+          },
+          {
+            "icon": "education",
+            "title": "エンジニア学位（コンピュータサイエンス）",
+            "content": "ENSEM",
+            "dates": ["2014-09", "2017-07"]
+          }
+        ]
+      },
+      {
+        "icon": "articles",
+        "title": "記事",
+        "content": [
+          {
+            "icon": "articles",
+            "title": "Javascript-Heap",
+            "content": "Proxyを使ってJavaScriptの配列をヒープ化する。",
+            "link": "https://zenn.dev/taha/articles/cf7b3407c9d855"
+          },
+          {
+            "icon": "articles",
+            "title": "Typescript-Cache",
+            "content": "Proxyを使ったTTL付きインメモリキャッシュ。",
+            "link": "https://zenn.dev/taha/articles/0f970bc7f1bef0"
+          },
+          {
+            "icon": "articles",
+            "title": "React-Modal",
+            "content": "Reactで作るヘッドレスモーダル。",
+            "link": "https://zenn.dev/taha/articles/ca332770718b0a"
+          },
+          {
+            "icon": "articles",
+            "title": "Nodejs-Auth",
+            "content": "デュアル認証によるシステムアクセス。",
+            "link": "https://zenn.dev/taha/articles/a82150288fe3d2"
+          }
+        ]
+      }
+    ]
+  },
+  "journey": {
+    "head": {
+      "img": "/img/faq.svg",
+      "subtitle": "年月とともに歩んだ私",
+      "title": "私の人生の歩み"
+    },
+    "content": [
+      {
+        "pic": "/img/life/1.webp",
+        "comment": "1歳の誕生日。自分の名前が書かれたケーキを初めて見た瞬間です。何が起きているのか全く分からず、顔にはっきり驚きが出ています。正直、嬉しいサプライズに出会ったときの反応は今も変わっていません。"
+      },
+      {
+        "pic": "/img/life/2.webp",
+        "comment": "プロムナイト、いわばモロッコ版のプロムの準備中です。服装から細部まで、すべてを完璧にしたくて。何時間もかけて準備し、何年経っても覚えている、そんな夜のひとつでした。"
+      },
+      {
+        "pic": "/img/life/3.webp",
+        "comment": "18歳のとき、初めてひげを剃って口ひげだけを残しました。仕上がりに自分でも驚いていて、その表情がすべてを物語っています。大胆な実験でした。"
+      },
+      {
+        "pic": "/img/life/4.webp",
+        "comment": "驚きが落ち着いたあとは、このスタイルを受け入れることにしました。ひげはなし、余計なものもなし（そう言うんでしたっけ？）、堂々とした大きな口ひげだけが主役です。完全にこのスタイルにコミットしていましたし、今見ると、あの頃の自信には敬意を表したくなります。"
+      },
+      {
+        "pic": "/img/life/5.webp",
+        "comment": "数年後、成熟の証として（当時はそう思っていたんです！）、口ひげにあごひげを足しました。今振り返ると、最良の判断ではありませんでしたね。それでも、どんな見た目にも学びはあって、これは「やめどき」を教えてくれました。"
+      },
+      {
+        "pic": "/img/life/6.webp",
+        "comment": "初めてのプロによる撮影で、パスポート用の写真です。CergyのM2のオファーをもらった直後に撮りました。大きな節目であり、新しい国での新しい章の始まりでもありました。真剣な顔ですが、その裏にはたくさんのワクワクがありました。"
+      },
+      {
+        "pic": "/img/life/7.webp",
+        "comment": "こちらもプロに撮ってもらった写真で、CergyでM2（人工知能）を修了した後のものです。ビザの更新に必要だったため、書類手続きのストレスも少しありました。同時に、心から誇りに思える成果の節目でもあります。"
+      },
+      {
+        "pic": "/img/life/8.webp",
+        "comment": "現在の私です。この写真は昨年、プロフィールを更新するために撮りました。中身は同じですが、見た目は洗練され、バースデーケーキの前で驚いていた子どもの頃よりずっと経験を積みました。"
+      }
+    ]
+  }
+}
