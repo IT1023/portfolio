@@ -11,11 +11,13 @@ export default function Head({ img, subtitle, title }: HeadProps) {
         <div aria-hidden className="min-w-14">
           <img src={img} alt={title} />
         </div>
-        <h3 className="text-sm uppercase font-[Blinker] font-semibold">
+        <h3 className="text-sm text-center uppercase font-[Blinker] font-semibold">
           {subtitle}
         </h3>
       </div>
-      <h1 className="text-5xl capitalize font-[Blinker]">{title}</h1>
+      <h1 className="text-5xl text-center capitalize font-[Blinker]">
+        {title}
+      </h1>
     </div>
   );
 }

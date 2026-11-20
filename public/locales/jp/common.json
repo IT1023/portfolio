@@ -3,5 +3,27 @@
   "language": {
     "label": "English",
     "ariaLabe": "change language to english"
+  },
+  "errors": {
+    "DOWN": {
+      "type": "error",
+      "message": "サーバーが応答していません。しばらくしてからもう一度お試しください。"
+    },
+    "ABORT": {
+      "type": "warning",
+      "message": "リクエストがキャンセルされたため、メッセージは送信されませんでした。"
+    },
+    "SYSTEM": {
+      "type": "error",
+      "message": "システムエラーが発生しました。時間をおいてもう一度お試しください。"
+    },
+    "MISMATCH": {
+      "type": "warning",
+      "message": "入力内容に誤りがあります。内容をご確認のうえ、もう一度お試しください。"
+    },
+    "SUCCESS": {
+      "type": "success",
+      "message": "All set!"
+    }
   }
 }

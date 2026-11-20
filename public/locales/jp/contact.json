@@ -1,0 +1,25 @@
+{
+  "head": {
+    "img": "/img/about.svg",
+    "title": "お気軽にご連絡ください!",
+    "subtitle": "プロジェクトのご相談はありませんか?ぜひお話ししましょう。"
+  },
+  "form": {
+    "email": {
+      "label": "メールアドレス",
+      "placeholder": "you@example.com"
+    },
+    "name": {
+      "label": "お名前",
+      "placeholder": "山田 太郎"
+    },
+    "message": {
+      "label": "メッセージ",
+      "placeholder": "プロジェクトやアイデア、ご質問についてお聞かせください..."
+    },
+    "submit": {
+      "label": "メッセージを送信",
+      "placeholder": "送信中..."
+    }
+  }
+}

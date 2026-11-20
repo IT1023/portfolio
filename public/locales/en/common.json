@@ -4,5 +4,27 @@
     "label": "日本語",
     "ariaLabe": "言語を日本語に変更する"
   },
-  "missingButtonKey": "HOME"
+  "missingButtonKey": "HOME",
+  "errors": {
+    "DOWN": {
+      "type": "error",
+      "message": "The server isn't responding right now. Please try again in a few minutes."
+    },
+    "ABORT": {
+      "type": "warning",
+      "message": "Your message wasn't sent because the request was cancelled."
+    },
+    "SYSTEM": {
+      "type": "error",
+      "message": "Something went wrong on our end. Please try again later."
+    },
+    "MISMATCH": {
+      "type": "warning",
+      "message": "Some fields look invalid. Please check your details and try again."
+    },
+    "SUCCESS": {
+      "type": "success",
+      "message": "All set!"
+    }
+  }
 }
