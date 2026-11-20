@@ -3,6 +3,8 @@ import Button from "../../shared/ui/Button";
 import { useForm } from "react-hook-form";
 import { useEffect, type FormEvent } from "react";
 import useSubmitMessage from "../../shared/lib/useSubmitMessage";
+import { useGetAddToast } from "../../features/toasts/ToastContext";
+import type { CustomError } from "../../shared/lib/types";
 
 interface FormProps {
   email: string;
@@ -11,14 +13,18 @@ interface FormProps {
 }
 
 export default function Form() {
-  const { t } = useTranslation("contact");
+  const { t } = useTranslation(["contact, common"]);
   const { register, getValues } = useForm<FormProps>();
   const { isLoading, error, isSuccess, submitMessage } = useSubmitMessage();
+  const addToast = useGetAddToast();
 
   useEffect(() => {
     if (!error) return;
-    console.log("failed", error);
-  }, [error]);
+    const { type, message } = t(`common:errors.${error}`, {
+      returnObjects: true,
+    }) as CustomError;
+    addToast({ type, message });
+  }, [error, addToast, t]);
 
   useEffect(() => {
     if (!isSuccess) return;
@@ -42,14 +48,14 @@ export default function Form() {
               className="text-md text-current/50 font-[Blinker]"
               htmlFor="email"
             >
-              {t("form.email.label")}:
+              {t("contact:form.email.label")}:
             </label>
             <input
               className="w-full p-1.5 text-sm border-2 border-divider rounded-sm"
               type="email"
               id="email"
               autoComplete="off"
-              placeholder={t("form.email.placeholder")}
+              placeholder={t("contact:form.email.placeholder")}
               {...register("email")}
             />
           </div>
@@ -58,14 +64,14 @@ export default function Form() {
               className="text-md text-current/50 font-[Blinker]"
               htmlFor="name"
             >
-              {t("form.name.label")}:
+              {t("contact:form.name.label")}:
             </label>
             <input
               className="w-full p-1.5 text-sm border-2 border-divider rounded-sm"
               type="text"
               id="name"
               autoComplete="off"
-              placeholder={t("form.name.placeholder")}
+              placeholder={t("contact:form.name.placeholder")}
               {...register("name")}
             />
           </div>
@@ -74,13 +80,13 @@ export default function Form() {
               className="text-md text-current/50 font-[Blinker]"
               htmlFor="message"
             >
-              {t("form.message.label")}:
+              {t("contact:form.message.label")}:
             </label>
             <textarea
               className="w-full rounded-sm p-2 text-sm text-current/75 border-2 border-divider"
               rows={6}
               id="message"
-              placeholder={t("form.message.placeholder")}
+              placeholder={t("contact:form.message.placeholder")}
               {...register("message")}
             ></textarea>
           </div>
@@ -89,7 +95,9 @@ export default function Form() {
             isLink={false}
             isFull={false}
             text={
-              isLoading ? t("form.submit.placeholder") : t("form.submit.label")
+              isLoading
+                ? t("contact:form.submit.placeholder")
+                : t("contact:form.submit.label")
             }
           />
         </form>

@@ -7,8 +7,8 @@ interface HeadProps {
 export default function Head({ img, subtitle, title }: HeadProps) {
   return (
     <div className="mx-auto flex flex-col gap-2 items-center">
-      <div className="flex flex-col gap-1 text-6xl items-center text-current/50">
-        <div aria-hidden className="min-w-14">
+      <div className="flex flex-col gap-2 text-6xl items-center text-current/50">
+        <div aria-hidden className="w-13">
           <img src={img} alt={title} />
         </div>
         <h3 className="text-sm text-center uppercase font-[Blinker] font-semibold">
