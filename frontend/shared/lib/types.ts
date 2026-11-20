@@ -11,3 +11,5 @@ export interface HeadProps {
   title: string;
   img: string;
 }
+
+export type Reject = "DOWN" | "SYSTEM" | "ABORT" | "MISMATCH";

@@ -1,0 +1,25 @@
+{
+  "head": {
+    "img": "/img/about.svg",
+    "title": "Get in touch!",
+    "subtitle": "Have a project in mind? Let's talk."
+  },
+  "form": {
+    "email": {
+      "label": "Your email",
+      "placeholder": "you@example.com"
+    },
+    "name": {
+      "label": "Your name",
+      "placeholder": "Jane Doe"
+    },
+    "message": {
+      "label": "Your message",
+      "placeholder": "Tell me about your project, idea, or question..."
+    },
+    "submit": {
+      "label": "Send message",
+      "placeholder": "Sending..."
+    }
+  }
+}

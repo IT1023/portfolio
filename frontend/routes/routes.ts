@@ -1,8 +1,7 @@
-import { lazy } from "react";
-
-const Homepage = lazy(() => import("../pages/homepage/Homepage"));
-const About = lazy(() => import("../pages/about/About"));
-const NotFound = lazy(() => import("../pages/NotFound"));
+import About from "../pages/about/About";
+import Contact from "../pages/contact/Contact";
+import Homepage from "../pages/homepage/Homepage";
+import NotFound from "../pages/NotFound";
 
 interface IRoute {
   path: string;
@@ -17,6 +16,10 @@ export const routes: IRoute[] = [
   {
     path: "/about",
     component: About,
+  },
+  {
+    path: "/contact",
+    component: Contact,
   },
   { path: "*", component: NotFound },
 ];
