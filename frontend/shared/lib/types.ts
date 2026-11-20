@@ -13,3 +13,8 @@ export interface HeadProps {
 }
 
 export type Reject = "DOWN" | "SYSTEM" | "ABORT" | "MISMATCH";
+
+export interface CustomError {
+  type: string;
+  message: string;
+}

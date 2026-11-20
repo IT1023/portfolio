@@ -21,8 +21,6 @@ export default function useSubmitMessage() {
       setIsLoading(true);
       setIsSuccess(false);
       setError(null);
-      // simulation of a delay
-      await new Promise((res) => setTimeout(res, 2000));
       const parsed = contactSchema.safeParse(obj);
       if (!parsed.success) {
         setError("MISMATCH");
