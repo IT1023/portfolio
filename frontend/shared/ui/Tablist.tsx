@@ -45,16 +45,16 @@ export default function Tablist({ ns, path }: TabListProps) {
           tabElements.map((t, index) => {
             const Icon = icons[t.icon || "default"];
             return (
-              <div
+              <button
                 className={`h-full py-2 px-4 w-fit text-current/50 text-md min-w-25 min-h-8 flex items-center gap-2 rounded-[50px] ${index === activeTab && "bg-background"}`}
                 key={t.title}
                 onClick={() => setActiveTab(index)}
               >
-                <span className="text-md flex items-center">
+                <span aria-hidden className="text-md flex items-center">
                   <Icon fontSize="inherit" color="inherit" />
                 </span>
                 <h1 className="font-[Blinker] truncate">{t.title}</h1>
-              </div>
+              </button>
             );
           })}
       </div>

@@ -26,7 +26,7 @@ export default function Accordion({
 
   return (
     <div className="w-full h-fit max-w-75 border-t-2 border-divider rounded-2xl min-h-14 bg-foreground flex flex-col">
-      <div
+      <button
         className="w-full py-1 px-2 cursor-pointer h-14 line-clamp-2 flex gap-2 justify-between items-center"
         onClick={toggleAccordion}
       >
@@ -41,7 +41,7 @@ export default function Accordion({
         >
           <ArrowDownwardIcon fontSize="small" className="text-current/50" />
         </span>
-      </div>
+      </button>
       <AnimatePresence>
         {isOpen && (
           <motion.div

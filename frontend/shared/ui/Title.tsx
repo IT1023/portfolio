@@ -40,7 +40,7 @@ export default function Title({ ns, path }: TitleProps) {
           />
         </div>
       </div>
-      <p className="text-current/65 text-3xl line-clamp-2 max-w-[90%]">
+      <p className="text-current/65 text-3xl line-clamp-3 max-w-[90%]">
         {catchphrase}
       </p>
       <h1 className="text-current/50 text-2xl font-mono font-semibold">

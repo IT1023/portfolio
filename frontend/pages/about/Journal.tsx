@@ -54,9 +54,9 @@ export default function Journal() {
                         src={c.pic}
                         alt={c.comment}
                       />
-                      <span className="w-full flex-1 min-h-35 font-semibold font-[Blinker] text-md italic text-current/50 border-t-2 p-2 border-divider">
+                      <p className="w-full flex-1 min-h-35 font-semibold font-[Blinker] text-md italic text-current/50 border-t-2 p-2 border-divider">
                         {c.comment}
-                      </span>
+                      </p>
                     </div>
                   </SwiperSlide>
                 );

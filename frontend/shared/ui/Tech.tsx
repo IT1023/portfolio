@@ -12,6 +12,7 @@ export default function Tech({ icon, tech }: TechProps) {
       className={`w-full max-w-25 h-fit flex flex-col gap-2 relative items-center ${isHover ? "scale-110" : "scale-100"} transition-all duration-300 ease-in-out`}
     >
       <span
+        aria-hidden
         className={`w-2.5 ${isHover ? "bg-primary" : "bg-foreground"} aspect-square rounded-[50px] transition-all duration-300 ease-in-out`}
       ></span>
       <div

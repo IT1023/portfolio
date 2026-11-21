@@ -34,7 +34,7 @@ export default function Square({ ns, path }: SquareProps) {
         className="w-fit bg-primary capitalize py-1.5 text-md px-4 truncate font-[Blinker] text-white/65 rounded-[50px] text-lg"
         href={button.link}
       >
-        {"label" in button ? button.label : ""}
+        {button.label}
       </a>
     </div>
   );
