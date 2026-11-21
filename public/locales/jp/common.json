@@ -20,10 +20,12 @@
     "MISMATCH": {
       "type": "warning",
       "message": "入力内容に誤りがあります。内容をご確認のうえ、もう一度お試しください。"
-    },
-    "SUCCESS": {
+    }
+  },
+  "SUCCESS": {
+    "contact": {
       "type": "success",
-      "message": "All set!"
+      "message": "メッセージが正常に送信されました！"
     }
   }
 }

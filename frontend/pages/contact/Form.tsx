@@ -28,7 +28,7 @@ export default function Form() {
 
   useEffect(() => {
     if (!isSuccess) return;
-    const { type, message } = t("common:success.contact", {
+    const { type, message } = t("common:SUCCESS.contact", {
       returnObjects: true,
     }) as CustomError;
     addToast({ type, message });
