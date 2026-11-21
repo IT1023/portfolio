@@ -21,10 +21,12 @@
     "MISMATCH": {
       "type": "warning",
       "message": "Some fields look invalid. Please check your details and try again."
-    },
-    "SUCCESS": {
+    }
+  },
+  "success": {
+    "contact": {
       "type": "success",
-      "message": "All set!"
+      "message": "Message delivered successfully!"
     }
   }
 }

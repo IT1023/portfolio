@@ -28,8 +28,11 @@ export default function Form() {
 
   useEffect(() => {
     if (!isSuccess) return;
-    console.log("success");
-  }, [isSuccess]);
+    const { type, message } = t("common:success.contact", {
+      returnObjects: true,
+    }) as CustomError;
+    addToast({ type, message });
+  }, [isSuccess, addToast, t]);
 
   const handleSubmit = (e: FormEvent) => {
     e.preventDefault();

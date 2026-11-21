@@ -21,6 +21,8 @@ export default function useSubmitMessage() {
       setIsLoading(true);
       setIsSuccess(false);
       setError(null);
+      // delay to break the batch update by react in case of same error
+      await new Promise((res) => setTimeout(res, 500));
       const parsed = contactSchema.safeParse(obj);
       if (!parsed.success) {
         setError("MISMATCH");

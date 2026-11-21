@@ -28,7 +28,7 @@ const pick = <T>(items: readonly T[]): T =>
   items[Math.floor(Math.random() * items.length)];
 
 export const randomAnimation = () => {
-  const axis = pick(["x", "y"] as const);
+  const axis = "y";
   const offset = axis === "y" ? "50px" : pick(["50px", "-50px"] as const);
 
   return {

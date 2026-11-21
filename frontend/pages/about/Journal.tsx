@@ -36,11 +36,11 @@ export default function Journal() {
     <div className="w-full flex flex-col gap-4 items-center">
       <Head img={img} subtitle={subtitle} title={title} />
       <div className="container w-full max-w-7xl flex justify-center">
-        <div className="w-full max-w-135 relative rounded-2xl border-t-2 border-divider">
+        <div className="w-screen overflow-hidden max-w-135 relative rounded-2xl border-t-2 border-divider">
           {Array.isArray(content) && (
             <Swiper slidesPerView={1} loop autoplay ref={swiperRef}>
               <button
-                className="absolute top-[50%] translate-y-[-50%] left-5 z-99 text-3xl p-2 aspect-square border-2 border-divider rounded-[50px] flex justify-center items-center text-current/50 hover:scale-105 transition-all duration-300 ease-in-out cursor-pointer"
+                className="absolute top-[50%] translate-y-[-50%] left-5 z-99 text-2xl md:text-3xl p-1.5 md:p-2 aspect-square border-2 border-divider rounded-[50px] flex justify-center items-center text-current/50 hover:scale-105 transition-all duration-300 ease-in-out cursor-pointer"
                 onClick={swipePrev}
               >
                 <WestIcon fontSize="inherit" color="inherit" />
@@ -48,7 +48,7 @@ export default function Journal() {
               {content.map((c) => {
                 return (
                   <SwiperSlide className="min-h-full" key={c.pic}>
-                    <div className="w-full p-4 bg-foreground rounded-2xl flex flex-col items-center gap-2">
+                    <div className="w-full md:p-4 p-2 bg-foreground rounded-2xl flex flex-col items-center gap-2">
                       <img
                         className="w-full max-w-85 aspect-3/4 h-full object-cover rounded-2xl object-center"
                         src={c.pic}
@@ -62,7 +62,7 @@ export default function Journal() {
                 );
               })}
               <button
-                className="absolute top-[50%] translate-y-[-50%] right-5 z-99 text-3xl p-2 aspect-square border-2 border-divider rounded-[50px] flex justify-center items-center text-current/50 hover:scale-105 transition-all duration-300 ease-in-out cursor-pointer"
+                className="absolute top-[50%] translate-y-[-50%] right-5 z-99 text-2xl md:text-3xl p-1.5 md:p-2 aspect-square border-2 border-divider rounded-[50px] flex justify-center items-center text-current/50 hover:scale-105 transition-all duration-300 ease-in-out cursor-pointer"
                 onClick={swipeNext}
               >
                 <EastIcon fontSize="inherit" color="inherit" />

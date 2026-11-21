@@ -21,7 +21,7 @@ export default function Animate({
   return (
     <>
       {!isCrossed && (
-        <div aria-hidden ref={sentinelRef} className="w-0 min-h-50"></div>
+        <div aria-hidden ref={sentinelRef} className="w-0 min-h-100"></div>
       )}
       <AnimatePresence>
         {isCrossed && (

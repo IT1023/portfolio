@@ -15,7 +15,7 @@ createRoot(document.getElementById("root")!).render(
         <Toasts />
         <div
           aria-hidden
-          className="bg-error text-info border-warning w-0 h-0 hidden"
+          className="border-info border-error border-warning w-0 h-0 hidden"
         ></div>
       </ToastWrapper>
     </ThemeWrapper>

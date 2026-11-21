@@ -22,7 +22,7 @@ export default function useAnimate(): UseAnimateReturns {
         });
       },
       {
-        threshold: 0.5,
+        threshold: 0.75,
       },
     );
     intersection.observe(element);
