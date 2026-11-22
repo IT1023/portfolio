@@ -14,14 +14,14 @@ export default function Animate({
   initial = { y: "50px" },
   animate = { y: "0" },
   exit = { y: "50px" },
-  transition = { duration: 0.6, ease: "easeInOut" },
+  transition = { duration: 0.75, ease: "easeInOut" },
 }: AnimateProps) {
   const { isCrossed, sentinelRef } = useAnimate();
 
   return (
     <>
       {!isCrossed && (
-        <div aria-hidden ref={sentinelRef} className="w-0 min-h-100"></div>
+        <div aria-hidden ref={sentinelRef} className="w-0 min-h-60 p-1"></div>
       )}
       <AnimatePresence>
         {isCrossed && (

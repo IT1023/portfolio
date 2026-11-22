@@ -58,18 +58,18 @@
       "title": "ポートフォリオセクション",
       "subtitle": "プロダクトデザインショーケース"
     },
-    "content": {
-      "first": {
+    "content": [
+      {
         "title": "Wordle",
-        "shortDescription": "人気ゲーム Wordle の再現版",
+        "shortDescription": "人気ゲーム「Wordle」の再現版",
         "img": "/img/portfolio/wordle"
       },
-      "second": {
+      {
         "title": "人事管理",
         "shortDescription": "人事管理システム",
         "img": "/img/portfolio/hr"
       }
-    }
+    ]
   },
   "tools": {
     "head": {

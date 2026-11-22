@@ -58,18 +58,18 @@
       "title": "Portfolio Section",
       "subtitle": "Product Design Showcase"
     },
-    "content": {
-      "first": {
+    "content": [
+      {
         "title": "Wordle",
         "shortDescription": "A recreation of the popular Wordle game",
         "img": "/img/portfolio/wordle"
       },
-      "second": {
+      {
         "title": "HR Management",
         "shortDescription": "Human Resource Management System",
         "img": "/img/portfolio/hr"
       }
-    }
+    ]
   },
   "tools": {
     "head": {

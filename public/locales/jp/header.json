@@ -3,7 +3,7 @@
   "nav": [
     { "to": "/", "label": "ホーム" },
     { "to": "/about", "label": "私について" },
-    { "to": "/project", "label": "個人開発" },
+    { "to": "/projects", "label": "個人開発" },
     { "to": "/contact", "label": "お問い合わせ" }
   ],
   "openNavMenu": "ナビゲーションメニューを開く"

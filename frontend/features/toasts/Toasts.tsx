@@ -6,6 +6,9 @@ import ReportOutlinedIcon from "@mui/icons-material/ReportOutlined";
 import WarningAmberIcon from "@mui/icons-material/WarningAmber";
 import InfoOutlinedIcon from "@mui/icons-material/InfoOutlined";
 import DoneAllOutlinedIcon from "@mui/icons-material/DoneAllOutlined";
+import type { SvgIconOwnProps } from "@mui/material/SvgIcon";
+
+type Custom = SvgIconOwnProps["color"];
 
 const icons: Record<string, SvgIconComponent> = {
   default: InfoOutlinedIcon,
@@ -37,7 +40,7 @@ export default function Toasts() {
                 className={`h-full min-h-20 text-4xl flex justify-center items-center aspect-square border-r-2 border-${t.type} text-${t.type}`}
                 aria-hidden
               >
-                <Icon fontSize="inherit" color="inherit" />
+                <Icon fontSize="inherit" color={t.type as Custom} />
               </span>
               <p className="flex-1 px-2 text-ellipsis line-clamp-2 flex items-center text-sm font-[Blinker]">
                 {t.message}
