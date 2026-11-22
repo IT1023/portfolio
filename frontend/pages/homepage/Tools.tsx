@@ -24,9 +24,9 @@ export default function Tools() {
   }) as ToolsContent;
 
   return (
-    <div className="flex flex-col items-center gap-6">
+    <div className="mx-auto max-w-[90%] overflow-hidden flex flex-col items-center gap-6">
       <Head img={img} subtitle={subtitle} title={title} />
-      <div className="w-full flex flex-col items-center gap-1 flex-wrap justify-center">
+      <div className="w-full flex overflow-hidden flex-col items-center gap-1 flex-wrap justify-center">
         <div className="w-full max-w-7xl flex flex-col rounded-2xl overflow-hidden border border-divider">
           <div className="w-full h-10 flex items-center justify-center bg-foreground border-b border-divider">
             <h1 className="text-md text-current/50 font-[Blinker] uppercase tracking-wide">

@@ -20,6 +20,7 @@ export default function Portfolio() {
           content.map((c) => {
             return (
               <Project
+                key={c.title}
                 img={c.img}
                 shortDescription={c.shortDescription}
                 title={c.title}

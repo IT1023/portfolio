@@ -16,7 +16,7 @@ const homepageSegments: React.ReactElement[] = [
 
 export default function Homepage() {
   return (
-    <div className="flex-1 flex flex-col gap-10 p-2">
+    <div className="flex-1 mx-auto max-w-[95%] overflow-hidden flex flex-col gap-10 p-2">
       {homepageSegments.map((segment, idx) => {
         const { animate, exit, initial, transition } = randomAnimation();
         return (

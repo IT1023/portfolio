@@ -36,9 +36,15 @@ export default function Journal() {
     <div className="w-full flex flex-col gap-4 items-center">
       <Head img={img} subtitle={subtitle} title={title} />
       <div className="container w-full max-w-7xl flex justify-center">
-        <div className="w-screen overflow-hidden max-w-135 relative rounded-2xl border-t-2 border-divider">
+        <div className="w-screen max-w-[90%] mx-auto overflow-hidden flex md:max-w-135 relative rounded-2xl border-t-2 border-divider">
           {Array.isArray(content) && (
-            <Swiper slidesPerView={1} loop autoplay ref={swiperRef}>
+            <Swiper
+              className="flex-1"
+              slidesPerView={1}
+              loop
+              autoplay
+              ref={swiperRef}
+            >
               <button
                 className="absolute top-[50%] translate-y-[-50%] left-5 z-99 text-2xl md:text-3xl p-1.5 md:p-2 aspect-square border-2 border-divider rounded-[50px] flex justify-center items-center text-current/50 hover:scale-105 transition-all duration-300 ease-in-out cursor-pointer"
                 onClick={swipePrev}

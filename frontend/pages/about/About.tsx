@@ -1,6 +1,6 @@
 import Animate from "../../features/animate/Animate";
 import { randomAnimation } from "../../shared/lib/helpers";
-import Background from "../homepage/Background";
+import Background from "../about/Background";
 import Hero from "./Hero";
 import Journal from "./Journal";
 
