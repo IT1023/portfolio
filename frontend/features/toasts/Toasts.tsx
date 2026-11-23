@@ -23,7 +23,10 @@ export default function Toasts() {
 
   return createPortal(
     <AnimatePresence>
-      <div className="fixed z-99999 top-13 right-13 flex flex-col gap-2">
+      <div
+        data-testid="toasts"
+        className="fixed z-99999 top-13 right-13 flex flex-col gap-2"
+      >
         {toasts.map((t) => {
           const Icon = t.type in icons ? icons[t.type] : icons["default"];
           return (

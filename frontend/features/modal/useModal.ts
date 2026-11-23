@@ -51,12 +51,7 @@ export default function useModal(): UseModalReturns {
       ...modalRef.current.querySelectorAll(
         'a[href], button, input, select, textarea, [tabindex]:not([tabindex="-1"]), [contenteditable="true"]',
       ),
-    ].filter(
-      (el) =>
-        !el.hasAttribute("disabled") &&
-        el.getAttribute("aria-hidden") !== "true" &&
-        el.getClientRects().length > 0,
-    );
+    ];
     if (!FOCUSABLE_ELEMENTS.length)
       return () => {
         document.body.style.overflow = "auto";
