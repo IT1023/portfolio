@@ -13,8 +13,6 @@ A booking platform built from scratch to study how large-scale hospitality booki
 **Stack:** React · TypeScript · Express · MySQL · Tailwind CSS · Material UI · Motion · react-i18next
 **Code:** [https://github.com/IT1023/booking_nest](https://github.com/IT1023/booking_nest)
 
-> **Note:** This is an independent educational project inspired by the SkyeNiseko booking experience. It is not affiliated with or endorsed by the original business, and its content, copy and branding are my own.
-
 ---
 
 ### 2. HR Management Dashboard
